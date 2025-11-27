@@ -2,6 +2,13 @@
 #### A centralized online complaint management system
 The online complaint registration and management system is designed to streamline the process of submitting, managing and resolving complaints or issues. It aims to provide a centralized platform where users can easily register their complaints, track their progress, and communicate with the responsible agents. The system seeks to enhance the efficiency of complaint handling, ensure timely resolutions, and ultimately improve customer satisfaction by offering a transparent and structured approach to managing complaints.
 
+### This is a dataflow diagram for simple understanding..
+<img src = "architectureDiagrams/dfd.png" >
+
+### This is the technical diagram regarding flow of control and logic
+<img src = "architectureDiagrams/flowOfControl_diagram.png" >
+
+
 ## Features 
 1. User Registration
 3. Complaint Submission and categorization
@@ -29,14 +36,15 @@ The online complaint registration and management system is designed to streamlin
          
      #### 2.2 Database (MongoDB)
      is used as the database, managed via Mongoose which provides a clear way to define and interact with MongoDB data models. The database schema includes collections for complaints, students and employees. The CRUD Operations performed are defined below:
-         - Create: Insert new documents into the 'complaints', 'students' or 'employee' collections using Mongoose models.
-         - Read: Queries can be based on fields like 'studentId', 'EmployeeId', or specific complaint IDs.
-         - Update: For example, updating the status of a complaint or changing employee/student details.
-         - Delete: deleting complaints or removing complaints from a student's or employee's list.
-         * The complaints and students: Complaints are associated with students via 'studentId' field. This allows tracking of which student made each complaint.
-         * Complaints and Employees: Employees are assigned complaints through 'assignedComplaints' field, linking them to specific complaints.
-         * Validation: Mongoose schemas enforce datatypes and required fields, ensuring data integrity.
-         * Error handling: Errors during database operations are caught and handled, ensuring that the application can respond efficiently to issues like validation and connection problems.
+     -  Create: Insert new documents into the 'complaints', 'students' or 'employee' collections using Mongoose models.
+     -  Read: Queries can be based on fields like 'studentId', 'EmployeeId', or specific complaint IDs.
+     -  Update: For example, updating the status of a complaint or changing employee/student details.
+     -  Delete: deleting complaints or removing complaints from a student's or employee's list.
+       
+     * The complaints and students: Complaints are associated with students via 'studentId' field. This allows tracking of which student made each complaint.
+     * Complaints and Employees: Employees are assigned complaints through 'assignedComplaints' field, linking them to specific complaints.
+     * Validation: Mongoose schemas enforce datatypes and required fields, ensuring data integrity.
+     * Error handling: Errors during database operations are caught and handled, ensuring that the application can respond efficiently to issues like validation and connection problems.
            
      #### 2.3 Routes and controllers
       - Separate route files for different functionalities, e.g., studentRoutes, complaintRoutes, employeeRoutes. Each route file imports corresponding controllers and defines the endpoints.
