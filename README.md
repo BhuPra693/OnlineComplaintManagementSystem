@@ -101,18 +101,18 @@ The online complaint registration and management system is designed to streamlin
    - The MongoDB Compass was used to see if the collections were accurately updated upon logging in/submitting a complaint/resolving the complaint/updating the profile.
    - Here are the following screenshots taken:
 
-<img src = "readmeAssets/queriesAndResponses01.png" >
+<img src = "readmeAssets/queryAndResponses01.png" >
 
-<img src = "readmeAssets/queriesAndResponses02.png" >
+<img src = "readmeAssets/queryAndResponses02.png" >
 
-<img src = "readmeAssets/queriesAndResponses03.png" >
+<img src = "readmeAssets/queryAndResponses03.png" >
 
-<img src = "readmeAssets/queriesAndResponses04.png" >
+<img src = "readmeAssets/queryAndResponses04.png" >
 
-<img src = "readmeAssets/queriesAndResponses05.png" >
+<img src = "readmeAssets/queryAndResponses05.png" >
 
-<img src = "readmeAssets/queriesAndResponses06.png" >
+<img src = "readmeAssets/queryAndResponses06.png" >
 
-<img src = "readmeAssets/queriesAndResponses07.png" >
+<img src = "readmeAssets/queryAndResponses07.png" >
 
 
