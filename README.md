@@ -11,23 +11,24 @@ The online complaint registration and management system is designed to streamlin
 
 ## Architecture
 
-1. Frontend
+### 1. Frontend
    - The frontend architecture ensures a clean separation of concerns making application scalable and maintainable. Each user role(student, employee, admin) has its dedicated dashboard with specific functionalities, enhancing the user experience and managing the application's complexity efficiently..
    - The Routing is managed by react-router-dom in Frontend/App.js.
    - The local state management using useState for handling dynamic data like complaints.
    - Each dashboard and functionality is encapsulated in separate components (components based design)
    - The styling utilizes bootstrap/dist/css/bootstrap.min.css for consistent and responsive styling.
 
-2. Backend
+### 2. Backend
    - The backend architecture is built using Node.js and Express.js, with MongoDB as the database. It includes separate routes and controllers for handling complaints from students, employees, and admins. The main features include user authentication, complaint management, and secure data handling.
      
-     2.1 Server setup (app.js):
+     #### 2.1 Server setup (app.js):
        - Express App initializes the Express application.
        - Middleware includes CORS, JSON parsing, and custom error handling.
        - MongoDB connection: Connects to the MongoDB database using Mongoose.
        - Routes: Set up routes for students, complaints, and employees.
          
-     2.2 Database (MongoDB) is used as the database, managed via Mongoose which provides a clear way to define and interact with MongoDB data models. The database schema includes collections for complaints, students and employees. The CRUD Operations performed are defined below:
+     #### 2.2 Database (MongoDB)
+     is used as the database, managed via Mongoose which provides a clear way to define and interact with MongoDB data models. The database schema includes collections for complaints, students and employees. The CRUD Operations performed are defined below:
          - Create: Insert new documents into the 'complaints', 'students' or 'employee' collections using Mongoose models.
          - Read: Queries can be based on fields like 'studentId', 'EmployeeId', or specific complaint IDs.
          - Update: For example, updating the status of a complaint or changing employee/student details.
@@ -37,9 +38,9 @@ The online complaint registration and management system is designed to streamlin
          * Validation: Mongoose schemas enforce datatypes and required fields, ensuring data integrity.
          * Error handling: Errors during database operations are caught and handled, ensuring that the application can respond efficiently to issues like validation and connection problems.
            
-     2.3 Routes and controllers
-         - Separate route files for different functionalities, e.g., studentRoutes, complaintRoutes, employeeRoutes. Each route file imports corresponding controllers and defines the endpoints.
-         - Controllers handle the logic for each route, interacting with the database and processing the requests.
+     #### 2.3 Routes and controllers
+      - Separate route files for different functionalities, e.g., studentRoutes, complaintRoutes, employeeRoutes. Each route file imports corresponding controllers and defines the endpoints.
+      - Controllers handle the logic for each route, interacting with the database and processing the requests.
 
 ## Setup Instructions
  - Prerequisites: The software dependencies required are Node.js, Mongoose, CORS, Bcryptjs, and .env configuration file.
