@@ -63,8 +63,6 @@ The online complaint registration and management system is designed to streamlin
 
    <img src = "readmeAssets/homePage02.png" >
 
-   <img src = "readmeAssets/homePage03.png" >
-   
 ### 2. Sign up and Login pages
    <img src = "readmeAssets/signUpAndLogin01.png" >
 
