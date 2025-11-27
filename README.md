@@ -1,4 +1,5 @@
-# OnlineComplaintManagementSystem
+# ResolveRadar
+#### A centralized online complaint management system
 The online complaint registration and management system is designed to streamline the process of submitting, managing and resolving complaints or issues. It aims to provide a centralized platform where users can easily register their complaints, track their progress, and communicate with the responsible agents. The system seeks to enhance the efficiency of complaint handling, ensure timely resolutions, and ultimately improve customer satisfaction by offering a transparent and structured approach to managing complaints.
 
 ## Features 
