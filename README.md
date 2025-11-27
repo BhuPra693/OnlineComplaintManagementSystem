@@ -58,5 +58,34 @@ The online complaint registration and management system is designed to streamlin
   2. Backend: node app.js - to start the server at the local port.
 
 ## User Interface images
+1. Landing page
+   <img src = "readmeAssets/homePage01.png" >
 
+   <img src = "readmeAssets/homePage02.png" >
+   
+2. Sign up and Login pages
+   <img src = "readmeAssets/signUpAndLogin01.png" >
+
+   <img src = "readmeAssets/signUpAndLogin02.png" >
+   
+3. Student dashboard
+   <img src = "readmeAssets/studentDashBoard01.png" >
+
+   <img src = "readmeAssets/studentDashBoard02.png" >
+
+   <img src = "readmeAssets/studentDashBoard03.png" >
+
+   <img src = "readmeAssets/studentDashBoard04.png" >
+
+   <img src = "readmeAssets/studentDashBoard05.png" >
+   
+4. Employee Dashboard
+   <img src = "readmeAssets/employeeDashBoard01.png" >
+
+   <img src = "readmeAssets/employeeDashBoard02.png" >
+   
+5. Admin Dashboard
+   <img src = "readmeAssets/adminDashBoard01.png" >
+
+   <img src = "readmeAssets/adminDashBoard02.png" >
 
