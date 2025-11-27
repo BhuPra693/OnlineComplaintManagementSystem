@@ -63,6 +63,8 @@ The online complaint registration and management system is designed to streamlin
 
    <img src = "readmeAssets/homePage02.png" >
 
+   <img src = "readmeAssets/homePage03.png" >
+
 ### 2. Sign up and Login pages
    <img src = "readmeAssets/signUpAndLogin01.png" >
 
@@ -88,4 +90,29 @@ The online complaint registration and management system is designed to streamlin
    <img src = "readmeAssets/adminDashBoard01.png" >
 
    <img src = "readmeAssets/adminDashBoard02.png" >
+
+## Backend and Testing
+
+### The responses stored in the database collections:
+  <img src = "readmeAssets/databaseResponses.png" >
+
+### The queries and responses of the backend API endpoints: 
+   - The testing of all the backend API endpoints were done using the Postman extension of VS code
+   - The MongoDB Compass was used to see if the collections were accurately updated upon logging in/submitting a complaint/resolving the complaint/updating the profile.
+   - Here are the following screenshots taken:
+
+<img src = "readmeAssets/queriesAndResponses01.png" >
+
+<img src = "readmeAssets/queriesAndResponses02.png" >
+
+<img src = "readmeAssets/queriesAndResponses03.png" >
+
+<img src = "readmeAssets/queriesAndResponses04.png" >
+
+<img src = "readmeAssets/queriesAndResponses05.png" >
+
+<img src = "readmeAssets/queriesAndResponses06.png" >
+
+<img src = "readmeAssets/queriesAndResponses07.png" >
+
 
